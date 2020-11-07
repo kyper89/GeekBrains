@@ -1,6 +1,6 @@
 package level_1.lesson_1;
 
-public class Homework {
+public class FirstAppHomework {
     
         // 1.
     public static void main(String[] args) {
