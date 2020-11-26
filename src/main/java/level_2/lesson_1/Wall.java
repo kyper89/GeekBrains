@@ -13,6 +13,6 @@ public class Wall extends Obstacle {
 
     @Override
     public boolean overcomeObstacle(Competitor competitor) {
-        return competitor.jump(competitor, this);
+        return competitor.jump(this);
     }
 }

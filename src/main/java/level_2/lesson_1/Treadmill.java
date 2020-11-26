@@ -13,6 +13,6 @@ public class Treadmill extends Obstacle {
 
     @Override
     public boolean overcomeObstacle(Competitor competitor) {
-        return competitor.run(competitor,this);
+        return competitor.run(this);
     }
 }
